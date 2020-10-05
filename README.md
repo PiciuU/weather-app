@@ -1,24 +1,46 @@
-# weather-app
+# Current Weather
 
-## Project setup
-```
-npm install
-```
+## General Info
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Current Weather is a Vue app, that shows actual weather conditions for the selected city.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Setup
 
-### Lints and fixes files
-```
-npm run lint
-```
+Live version: [Check](http://dev.dream-speak.pl/weather/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Prerequisites
+
+- Node >= v12.16.1
+- npm >= v6.13.4
+
+
+### Installation
+
+1. Clone or download repository
+2. Go to repository location
+3. Install dependencies via npm
+   `npm install`
+4. create *.env* file and fill it with
+   `VUE_APP_API=YOUR_OPENWEATHERMAP_API_KEY`
+5. Run it on your local server in the development mode
+   `npm run serve`
+   Or build the app in the production mode
+   `npm run build`
+
+## Technologies
+
+This project is created with:
+
+- Vue@3.0.0
+
+## Features
+
+- Current temperature
+- Current date and time
+- Minimum and maximum temperature
+- Humidity and pressure
+- Dynamic background
+
+## Author
+
+Created by PiciuU.
