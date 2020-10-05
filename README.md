@@ -20,9 +20,7 @@ Live version: [Check](http://dev.dream-speak.pl/weather/)
 2. Go to repository location
 3. Install dependencies via npm
    `npm install`
-4. create *.env* file and fill it with
-   `VUE_APP_API=YOUR_OPENWEATHERMAP_API_KEY`
-5. Run it on your local server in the development mode
+4. Run it on your local server in the development mode
    `npm run serve`
    Or build the app in the production mode
    `npm run build`
